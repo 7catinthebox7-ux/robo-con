@@ -1,0 +1,7 @@
+add_executable(controller_node controller_node.cc)
+
+ament_target_dependencies(controller_node spdlog rclcpp)
+
+target_link_libraries(controller_node ${cpp_typesupport_target} gflags spdlog::spdlog)
+
+install(TARGETS controller_node DESTINATION lib/${PROJECT_NAME})

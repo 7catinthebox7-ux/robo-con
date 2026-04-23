@@ -1,0 +1,12 @@
+Standard: c++17
+BasedOnStyle: Google
+ColumnLimit: 100
+
+# Force left alignment
+PointerAlignment: Left
+
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+
+SortIncludes: true
+IncludeBlocks: Preserve
