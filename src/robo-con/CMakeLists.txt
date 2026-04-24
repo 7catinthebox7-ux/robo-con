@@ -16,6 +16,7 @@ find_package(gflags REQUIRED)
 find_package(spdlog CONFIG REQUIRED)
 
 add_subdirectory(ros2)
+add_subdirectory(hardware)
 
 # install(DIRECTORY launch DESTINATION share/${PROJECT_NAME})
 
